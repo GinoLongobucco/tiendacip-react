@@ -1,11 +1,13 @@
-import Navbar from "./Navbar";
+import Home from "./components/pages/home/Home";
+import Navbar from "./components/layout/Navbar";
 
 function App() {
-  return (
-    <div>
-      <h1>este es el app</h1>
-    </div>
-  );
+	return (
+		<div>
+			<Navbar />
+			<Home />
+		</div>
+	);
 }
 
 export default App;
