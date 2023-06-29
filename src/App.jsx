@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 function App() {
   return (
     <div>
-      <Navbar />{" "}
+      <h1>este es el app</h1>
     </div>
   );
 }
